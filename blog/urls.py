@@ -46,8 +46,8 @@ from blog.views.dashboard.author.author_profile_views import (
 
 from blog.views.account.register_view import \
     (
-      ActivateView,
-      AccountActivationSentView,
+    #   ActivateView,
+    #   AccountActivationSentView,
       UserRegisterView,
     )
 from blog.views.account.logout_view import UserLogoutView
@@ -183,15 +183,15 @@ urlpatterns = [
         name='logout'
     ),
 
-    path(route='account_activation_sent/',
-         view=AccountActivationSentView.as_view(),
-         name='account_activation_sent'
-         ),
+    # path(route='account_activation_sent/',
+    #      view=AccountActivationSentView.as_view(),
+    #      name='account_activation_sent'
+    #      ),
 
-    path(route='activate/<uidb64>/<token>/',
-         view=ActivateView.as_view(),
-         name='activate'
-         ),
+    # path(route='activate/<uidb64>/<token>/',
+    #      view=ActivateView.as_view(),
+    #      name='activate'
+    #      ),
 
 
 

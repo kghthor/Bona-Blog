@@ -1,10 +1,10 @@
-coverage==4.5.3
-Django==2.2.13
-django-filter==2.1.0
-django-taggit==1.1.0
-djangorestframework==3.9.2
-model-mommy==1.6.0
-Pillow==6.2.1
-django-debug-toolbar==1.11
+coverage
+Django
+django-filter
+django-taggit
+djangorestframework
+model-mommy
+Pillow
+django-debug-toolbar
 django-ckeditor==6.0.0
 
